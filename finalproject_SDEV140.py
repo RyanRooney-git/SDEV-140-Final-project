@@ -219,7 +219,7 @@ class CoffeeCreations(tk.Tk):
             title_label.pack()
 
             # Image for the final thank you page
-            pil_image = Image.open("final_project/coffee_total_page.gif")
+            pil_image = Image.open("coffee_total_page.gif")
             pil_image = pil_image.resize((150, 150))
             self.thankyouCoffee = ImageTk.PhotoImage(pil_image)
 

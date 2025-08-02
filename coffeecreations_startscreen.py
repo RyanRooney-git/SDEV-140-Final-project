@@ -37,7 +37,7 @@ def startScreen(start, order_click):
     panel_blue.pack(side="left", fill="y")
 
     # Uses the image class to open the image and then resizes it
-    pil_image = Image.open("final_project/coffee.gif")
+    pil_image = Image.open("coffee.gif")
     pil_image = pil_image.resize((200, 200))
     start.coffeeImage = ImageTk.PhotoImage(pil_image)
 
